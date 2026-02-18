@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="pt-br" data-bs-theme="dark">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Leandro Silva | Dev Front-End</title>
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold name-navbar mx-auto mx-lg-0 text-center" href="#home">Leandro Silva</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span><img width="32" height="32" src="https://img.icons8.com/fluency/48/menu--v1.png"
+                        alt="menu--v1" /></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="menu">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section id="home" class="d-flex align-items-center" style="min-height: 100vh;">
+            <div class="container text-center">
+                <div class="mb-4">
+                    <img src="assets/perfil.png"
+                        class="rounded-circle border border-primary p-1 shadow-lg blue-transition" width="180"
+                        height="180" style="object-fit: cover;" alt="Leandro Silva">
+                </div>
+                <h1 class="display-6 fw-bold mb-2">Leandro Silva</h1>
+                <p class="text-secondary fs-5 mb-4 mx-auto" style="max-width: 600px;">
+                    Desenvolvedor Front-End Junior
+                </p>
+
+                <div class="d-flex justify-content-center gap-4 flex-wrap mb-5">
+                    <img class="blue-transition" width="40" src="https://img.icons8.com/color/48/html-5--v1.png"
+                        title="HTML5">
+                    <img class="blue-transition" width="40" src="https://img.icons8.com/color/48/css3.png" title="CSS3">
+                    <img class="blue-transition" width="40" src="https://img.icons8.com/fluency/48/javascript.png"
+                        title="JavaScript">
+                    <img class="blue-transition" width="40" src="https://img.icons8.com/color/48/bootstrap--v2.png"
+                        title="Bootstrap">
+                    <img class="blue-transition" width="40" src="https://img.icons8.com/color/48/python--v1.png"
+                        title="Python">
+                </div>
+
+                <div class="d-flex justify-content-center gap-3">
+                    <a class="btn btn-dark light-transition px-4 py-2 d-inline-flex align-items-center gap-2"
+                        href="https://github.com/LeandroSilvaN" target="_blank">
+                        <img src="assets/github.png" alt="GitHub" width="20" height="20">
+                        GitHub
+                    </a>
+                    <a class="btn btn-dark light-transition px-4 py-2 d-inline-flex align-items-center gap-2"
+                        href="https://www.linkedin.com/in/leandro-silva-do-nascimento/" target="_blank">
+                        <img src="assets/linkedin.png" alt="LinkedIn" width="20" height="20">
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="bg-black bg-opacity-25">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 text-center text-lg-start">
+                        <h2 class="fw-bold mb-4">Sobre Mim</h2>
+                        <p class="lead text-secondary">
+                            Atualmente curso <strong>Desenvolvimento de Software Multiplataforma</strong> na Fatec Zona
+                            Sul. Estou em constante evolução na área de programação, buscando consolidar minha carreira
+                            como desenvolvedor.
+                        </p>
+
+                        <p class="text-secondary">
+                            Foco meus estudos em <strong>JavaScript</strong> e desenvolvimento web, com o objetivo de me
+                            tornar um desenvolvedor <strong>Full Stack</strong>, dominando tanto o front-end quanto o
+                            back-end.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 d-none d-lg-block text-center">
+                        <img src="assets/pc.png" alt="computador">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <div class="container">
+                <h2 class="text-center fw-bold mb-5">Meus Projetos</h2>
+                <div class="row g-4">
+                    <!-- Cards de Projetos -->
+                    <div class="col-md-4">
+                        <div class="card h-100 glass-card">
+                            <div class="card-body p-4">
+                                <div class="text-primary mb-3"><i class="bi bi-calculator fs-2"></i></div>
+                                <h5 class="card-title fw-bold">Barbearia Ivan</h5>
+                                <p class="card-text text-secondary small">Projeto acadêmico desenvolvido com o objetivo
+                                    de entregar um site funcional para a comunidade.</p>
+                                <a href="https://github.com/LeandroSilvaN/Barbearia-Ivan"
+                                    class="btn btn-sm btn-outline-primary light-text light-transition mt-2"
+                                    target="_blank">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card h-100 glass-card">
+                            <div class="card-body p-4">
+                                <div class="text-primary mb-3"><i class="bi bi-calculator fs-2"></i></div>
+                                <h5 class="card-title fw-bold">Rock, Paper, Scissors</h5>
+                                <p class="card-text text-secondary small">Projeto acadêmico desenvolvido para aplicar
+                                    conceitos de algoritmos e lógica de programação por meio da criação do jogo Pedra,
+                                    Papel e Tesoura.</p>
+                                <a href="https://github.com/LeandroSilvaN/Rock-Paper-Scissors"
+                                    class="btn btn-sm btn-outline-primary btn-outline-primary light-text light-transition mt-2"
+                                    target="_blank">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card h-100 glass-card">
+                            <div class="card-body p-4">
+                                <div class="text-primary mb-3"><i class="bi bi-calculator fs-2"></i></div>
+                                <h5 class="card-title fw-bold">Consulta Agendada</h5>
+                                <p class="card-text text-secondary small">Projeto desenvolvido durante o desafio
+                                    #7DaysOfCode da Alura, com foco na construção de uma interface de site para Consulta
+                                    Médica utilizando boas práticas de desenvolvimento web.</p>
+                                <a href="https://github.com/LeandroSilvaN/consulta-agendada"
+                                    class="btn btn-sm btn-outline-primary light-text light-transition mt-2"
+                                    target="_blank">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="text-center bg-black bg-opacity-25">
+            <div class="container">
+                <h2 class="fw-bold mb-4">Disponível para estágio</h2>
+                <p class="text-secondary mb-5">Busco oportunidade para aplicar conhecimentos e evoluir
+                    profissionalmente.</p>
+
+                <div class="d-flex justify-content-center gap-3 flex-wrap">
+                    <a href="mailto:leandrosw2017@gmail.com" class="btn btn-secondary btn-lg px-4 shadow">
+                        <img width="32" height="32" src="https://img.icons8.com/3d-fluency/94/email.png" alt="email" />
+                        Enviar E-mail
+                    </a>
+                    <a class="btn btn-success btn-lg px-4 shadow"
+                        href="https://api.whatsapp.com/send?phone=551195993216" target="_blank">
+                        <img src="assets/whatsapp.png" alt="whatsapp">
+                        WhatsApp
+                    </a>
+
+                    <a href="https://www.canva.com/design/DAG2NzbUDIQ/u0U6YzdkT9WMIs7t1m7naQ/view"
+                        class="btn btn-primary btn-lg px-4 shadow" target="_blank">
+                        <img width="32" height="32" src="https://img.icons8.com/3d-fluency/94/resume.png"
+                            alt="Currículo" />
+                        Currículo
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="bg-black text-center text-white py-3">
+        <p class="mb-0">
+            © 2026 - Desenvolvido por
+            <a href="https://github.com/LeandroSilvaN" target="_blank" class="text-decoration-none text-info-emphasis">
+                Leandro Silva
+            </a>
+        </p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
